@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Homepage</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">codeWithAbbam Blog</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog" class="active">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Frontend Blog</h1>
+            <p>Your gateway to mastering web development with the latest trends, tutorials, and tools.</p>
+        </div>
+    </section>
+
+    <section class="card-container">
+        <div class="card">
+            <img src="./asset/image/frontend_trends.png" alt="Frontend Trends">
+            <h2>Frontend Trends 2024</h2>
+            <p>Explore the cutting-edge trends in frontend development to stay ahead in the industry.</p>
+            <a href="article1.html" class="read-more">Read More</a>
+        </div>
+        <!-- <div class="card">
+            <img src="./asset/image/css_grid.jpg" alt="CSS Grid">
+            <h2>Mastering CSS Grid</h2>
+            <p>Learn how to build responsive layouts with CSS Grid for modern web design.</p>
+            <a href="article2.html" class="read-more">Read More</a>
+        </div> -->
+        <div class="card">
+            <img src="./asset/image/javascript_frameworks.jpg" alt="JavaScript Frameworks">
+            <h2>JavaScript Frameworks</h2>
+            <p>Discover the best frameworks to enhance your productivity and build amazing applications.</p>
+            <a href="article3.html" class="read-more">Read More</a>
+        </div>
+        <div class="card">
+            <img src="./asset/image/web_animations.gif" alt="Web Animations">
+            <h2>Web Animations</h2>
+            <p>Bring your websites to life with engaging animations and transitions.</p>
+            <a href="article4.html" class="read-more">Read More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Welcome to our blog! We’re passionate about sharing knowledge, stories, and insights that inspire and
+                empower our readers.</p>
+            <p>
+                Our mission is to create a platform where ideas and creativity thrive. Whether you're here to learn,
+                explore, or simply enjoy great content,
+                we're excited to have you join our journey.
+            </p>
+            <p>
+                Stay tuned for updates, engaging posts, and much more. Feel free to reach out if you’d like to
+                collaborate or share feedback!
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-hero">
+        <h1>Welcome to Our Blog</h1>
+        <p>Discover the latest in web development, design, and technology trends.</p>
+    </section>
+
+    <section class="blog-articles">
+        <div class="article">
+            <img src="./asset/image/development_trends.jpg" alt="Web Development Trends">
+            <h2>Top 5 Web Development Trends in 2024</h2>
+            <p>Explore the latest advancements shaping the future of web development.</p>
+            <a href="article1.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="./asset/image/advance_css.jpg" alt="CSS Techniques">
+            <h2>Advanced CSS Techniques You Should Know</h2>
+            <p>Learn how to create stunning web designs with advanced CSS properties.</p>
+            <a href="article2.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="./asset/image/right_framework.jpeg" alt="JavaScript Frameworks">
+            <h2>Choosing the Right JavaScript Framework</h2>
+            <p>A guide to selecting the best framework for your next project.</p>
+            <a href="article3.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="./asset/image/front_libraries.png" alt="Frontend Libraries">
+            <h2>Top 10 Frontend Libraries in 2024</h2>
+            <p>Discover the most popular frontend libraries used by developers worldwide.</p>
+            <a href="article4.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="./asset/image/responsive_design.jpg" alt="Responsive Design">
+            <h2>Responsive Design Best Practices</h2>
+            <p>Ensure your websites look great on all devices with these tips.</p>
+            <a href="article5.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="article">
+            <img src="./asset/image/web-animation.gif" alt="Web Animation">
+            <h2>Adding Motion to Your Website with Animations</h2>
+            <p>Learn how animations can enhance user experience and engagement.</p>
+            <a href="article6.html" class="read-more">Read More</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact-hero">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Feel free to reach out with any questions or feedback.</p>
+    </section>
+
+    <section class="contact-form">
+        <div class="form-container">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 codeWithAbbam Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
